@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;600;700&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Space Grotesk", system-ui, sans-serif;
+  background: #f4f1ea;
+  color: #1d1a16;
+}
+
+.app {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+nav {
+  display: flex;
+  gap: 12px;
+  padding: 20px 24px;
+  background: #fff;
+  border-bottom: 1px solid #e4dccf;
+}
+
+nav button {
+  border: 1px solid #d9cbb8;
+  background: #fff5e8;
+  padding: 8px 14px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+main {
+  padding: 32px;
+}
+
+.card {
+  background: #fff;
+  border-radius: 20px;
+  padding: 24px;
+  border: 1px solid #e4dccf;
+  box-shadow: 0 16px 30px rgba(28, 22, 14, 0.12);
+}
+
+.grid {
+  display: grid;
+  gap: 16px;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  margin-top: 16px;
+}
+
+.tile {
+  background: #fff7ea;
+  border: 1px dashed #d9cbb8;
+  border-radius: 14px;
+  padding: 16px;
+}
+
+.form {
+  display: grid;
+  gap: 12px;
+  margin-top: 12px;
+}
+
+label {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  font-size: 14px;
+}
+
+input {
+  padding: 8px 10px;
+  border-radius: 8px;
+  border: 1px solid #d9cbb8;
+}
+
+button[type="button"] {
+  align-self: flex-start;
+  padding: 8px 14px;
+  border-radius: 10px;
+  border: 1px solid #d9cbb8;
+  background: #ff8a3d;
+  color: white;
+  font-weight: 600;
+}
