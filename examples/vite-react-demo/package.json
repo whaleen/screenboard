@@ -1,0 +1,23 @@
+{
+  "name": "vite-react-demo",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.4",
+    "@types/react": "^18.3.6",
+    "@types/react-dom": "^18.3.0",
+    "@screenboard/core": "workspace:*",
+    "typescript": "^5.4.5",
+    "vite": "^5.4.10"
+  }
+}

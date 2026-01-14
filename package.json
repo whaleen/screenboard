@@ -1,0 +1,19 @@
+{
+  "name": "screenboard",
+  "private": true,
+  "packageManager": "pnpm@9.12.0",
+  "workspaces": [
+    "packages/*",
+    "examples/*"
+  ],
+  "scripts": {
+    "build": "pnpm -r build",
+    "dev": "pnpm --filter screenboard-studio dev",
+    "typecheck": "pnpm -r typecheck"
+  },
+  "devDependencies": {
+    "@types/node": "^20.16.5",
+    "tsup": "^8.1.0",
+    "typescript": "^5.4.5"
+  }
+}
